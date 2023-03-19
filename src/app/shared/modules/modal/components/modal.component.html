@@ -1,0 +1,23 @@
+<ng-template #mymodal let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">{{ title }}</h4>
+    <button
+      type="button"
+      class="btn btn-light"
+      aria-label="Close"
+      (click)="modal.dismiss('close')"
+    >
+      <span aria-hidden="true">×</span>
+    </button>
+  </div>
+  <div class="modal-body">{{ message }}</div>
+  <div class="modal-footer">
+    <button
+      type="button"
+      class="btn btn-outline-primary"
+      (click)="modal.close('ok')"
+    >
+      Ok
+    </button>
+  </div>
+</ng-template>

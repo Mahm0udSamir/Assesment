@@ -1,0 +1,28 @@
+progress,
+.title {
+  text-align: left;
+}
+
+.card {
+  text-align: left;
+
+  h6.card-subtitle {
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  span.alert {
+    padding: 4px;
+    margin-left: 16px;
+  }
+}
+
+span.page {
+  font-weight: bold;
+  margin: 14px;
+}
+
+button.submit {
+  float: right;
+  margin: 20px 0;
+}

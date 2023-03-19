@@ -1,0 +1,23 @@
+.icon {
+  font-size: 35px;
+  padding-top: 12px;
+}
+
+.card {
+  text-align: center;
+  .card-body {
+    padding: 1px;
+  }
+
+  h5.timer {
+    font-weight: bold;
+  }
+}
+
+.now-time {
+  font-size: 11px;
+  margin: 1px;
+  span {
+    font-weight: bold;
+  }
+}

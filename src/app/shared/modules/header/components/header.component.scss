@@ -1,0 +1,21 @@
+nav {
+  padding: 0;
+  .logo {
+    font-size: 23px;
+    font-weight: bold;
+    padding: 0;
+    margin-right: 50px;
+  }
+
+  .logo-title span,
+  .split {
+    color: #ffffff87;
+  }
+
+  .split {
+    margin: 0 50px;
+  }
+  .active {
+    border-bottom: 3px solid #fff;
+  }
+}

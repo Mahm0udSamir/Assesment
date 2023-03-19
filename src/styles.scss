@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+// Variable overrides
+$primary: #4f008c;
+$success: #00c48c;
+$danger: #ff375e;
+$enable-shadows: true;
+$prefix: "mo-";
+
+// import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// import material-icons
+
+@import "material-icons/iconfont/material-icons.css";
+
+//gloable
+.card {
+  box-shadow: 0px 1px 10px -7px;
+  margin-bottom: 7px;
+}
+
+html {
+  overflow: hidden;
+}
+
+.btn-danger,
+.btn-danger:hover {
+  color: #fff;
+}
